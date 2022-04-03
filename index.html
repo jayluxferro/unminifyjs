@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Free online tool to unminify JS, CSS, HTML compressed code, making it readable again. Unminify, uncompress and beautify any minified JS, CSS, HTML code.">
+<title>Unminify JS, CSS, HTML</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>html{position:relative;min-height:100%}body{background:#f9f9f9;}.container{width:auto;max-width:850px;padding:0 15px;text-align:center;font-size:15px}h1{color:#ff6600 !important;}textarea{padding:15px 20px;font-family:Arial;font-size:14px;letter-spacing:.1px;color:#34495e!important;line-height:30px;white-space:pre;word-wrap:normal;overflow-x:scroll;min-height:315px;margin-bottom:20px}.btn{padding:8px 30px;margin:8px}.form{margin:30px 0 20px 0}.share{font-size:35px}.share a{margin-left:10px;margin-right:10px;color:#98d37e!important}.share a:hover{color:#6fc14a!important}h3{font-size:18px;}footer{margin:15px 0 20px 0;color:#ccc!important;font-size:14px!important}footer a{color:#98d37e !important;}</style>
+</head>
+<body>
+<main role="main" class="container">
+<h1 class="mt-3">Unminify JS, CSS, HTML</h1>
+<p class="lead">Free tool to unminify JS, CSS, HTML</p>
+<div class="form">
+<div class="form-group">
+<textarea class="form-control" id="textarea" name="textarea" placeholder="Paste JS, CSS, HTML code..."></textarea>
+</div>
+<div class="form-group">
+<button class="btn btn-success" onclick="unminify(); return false;">Unminify</button>
+<button class="btn btn-secondary" onclick="eraseText(); return false;">Clear</button>
+<button class="btn btn-secondary" onclick="copyUnminify(); return false;">Copy</button>
+</div>
+</div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.7.5/beautify.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.7.5/beautify-css.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.7.5/beautify-html.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
